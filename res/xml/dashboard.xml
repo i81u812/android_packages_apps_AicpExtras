@@ -70,10 +70,10 @@
         android:title="@string/navigation_category">
 
         <PreferenceScreen
-            android:title="@string/navbar_title"
-            android:summary="@string/navbar_summary"
+            android:title="@string/navigation_title"
+            android:summary="@string/navigation_summary"
             android:icon="@drawable/ic_settings_navbar"
-            android:fragment="com.aicp.extras.fragments.NavigationBar" />
+            android:fragment="com.aicp.extras.fragments.Navigation" />
 
         <PreferenceScreen
             android:title="@string/recents_title"
