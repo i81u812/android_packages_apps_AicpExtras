@@ -729,7 +729,12 @@
     <string name="ticker_animation_mode_scroll">Scroll</string>
     <string name="ticker_tick_duration_title">Ticker duration</string>
 
-    <!-- DUI -->
+    <!-- Navigation-->
+    <string name="navigation_title">Navigation</string>
+    <string name="navigation_description">Mutually exclusive modes of navigation. Enabling one automatically disables the other.</string>
+    <string name="navigation_summary">Stock/Smartbar/Fling/Gestures</string>
+
+    <!-- Navigation bar -->
     <string name="navbar_title">Navigation bar</string>
     <string name="navbar_summary">Click for available modes and options</string>
     <string name="navbar_interface_title">Interface</string>
@@ -1213,11 +1218,6 @@
     <string name="edge_gestures_landscape_back_edges_title">Trigger back gesture on landscape from</string>
     <string name="edge_gestures_back_screen_percent_title">Back gesture must start below this percentage of the screen</string>
     <string name="edge_gestures_back_screen_percent_summary">Trigger area: lower than % of screen</string>
-
-    <!-- Navigation-->
-    <string name="navigation_title">Navigation</string>
-    <string name="navigation_description">Mutually exclusive modes of navigation. Disabling one automatically enables the other.</string>
-    <string name="navigation_summary">Stock/Smartbar/Fling/Gestures</string>
 
     <!-- Circle app bar -->
     <string name="category_app_circle_bar_title">App Circle Bar launcher</string>
