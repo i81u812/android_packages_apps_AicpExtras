@@ -39,24 +39,26 @@
     <PreferenceCategory
         android:title="@string/weblinks_category">
 
-        <Preference
-            android:key="aicp_downloads"
+        <!-- <Preference
             android:title="@string/aicp_downloads_title"
-            android:summary="@string/aicp_downloads_summary" />
+            android:summary="@string/aicp_downloads_summary">
+        <intent android:action="android.intent.action.VIEW"
+                android:data="@string/aicp_downloads_link" />
+        </Preference> -->
 
-        <Preference
+        <!-- <Preference
             android:title="@string/aicp_website_title"
             android:summary="@string/aicp_website_summary">
             <intent android:action="android.intent.action.VIEW"
                 android:data="@string/aicp_website_link" />
-        </Preference>
+        </Preference> -->
 
-        <Preference
+        <!-- <Preference
             android:title="@string/g_plus_title"
             android:summary="@string/g_plus_summary">
             <intent android:action="android.intent.action.VIEW"
                 android:data="@string/g_plus_link" />
-        </Preference>
+        </Preference> -->
 
         <Preference
             android:title="@string/aicp_gerrit_title"

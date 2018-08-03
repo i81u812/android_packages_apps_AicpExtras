@@ -32,6 +32,7 @@ import android.widget.EditText;
 
 import com.aicp.extras.R;
 import com.aicp.extras.BaseSettingsFragment;
+import com.aicp.extras.preference.MasterSwitchPreference;
 
 import java.util.Date;
 

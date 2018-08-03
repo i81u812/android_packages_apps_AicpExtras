@@ -19,6 +19,7 @@ package com.aicp.extras.fragments;
 
 import com.aicp.extras.BaseSettingsFragment;
 import com.aicp.extras.R;
+import com.aicp.extras.preference.MasterSwitchPreference;
 
 public class BatteryBar extends BaseSettingsFragment {
 

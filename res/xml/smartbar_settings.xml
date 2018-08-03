@@ -31,6 +31,12 @@
         android:entryValues="@array/smartbar_context_menu_side_values"
         android:summary="@string/smartbar_context_menu_position_summary" />
 
+    <com.aicp.gear.preference.SecureSettingSwitchPreference
+        android:key="smartbar_doubletap_sleep"
+        android:title="@string/smartbar_double_tap_sleep_title"
+        android:summary="@string/smartbar_double_tap_sleep_summary"
+        android:defaultValue="true" />
+
     <ListPreference
         android:key="smartbar_ime_action"
         android:title="@string/smartbar_ime_action_title"
@@ -68,12 +74,6 @@
         android:max="100"
         aicpextras:unitsRight="%"
         android:persistent="false" />
-
-    <com.aicp.gear.preference.SecureSettingSwitchPreference
-        android:key="smartbar_doubletap_sleep"
-        android:title="@string/smartbar_double_tap_sleep_title"
-        android:summary="@string/smartbar_double_tap_sleep_summary"
-        android:defaultValue="true" />
 
     <!--<com.aicp.gear.preference.SecureSettingSwitchPreference
         android:key="one_handed_mode_ui"

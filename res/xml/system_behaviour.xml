@@ -68,6 +68,7 @@
     <PreferenceScreen
         android:key="suspend_actions"
         android:title="@string/screen_state_toggles_title"
+        android:summary="@string/screen_state_toggles_summary"
         android:fragment="com.aicp.extras.fragments.SuspendActions" />
 
     <com.aicp.gear.preference.SystemSettingSwitchPreference
@@ -120,6 +121,13 @@
             android:summary="@string/headset_connect_player_summary"
             android:defaultValue="false" />
 
+        <!-- Vibrate on plug -->
+        <com.aicp.gear.preference.SystemSettingSwitchPreference
+            android:key="vibration_on_charge_state_changed"
+            android:title="@string/vibration_on_charge_state_changed_title"
+            android:summary="@string/vibration_on_charge_state_changed_summary"
+            android:defaultValue="false" />
+
         <!-- Wake on plug -->
         <com.aicp.gear.preference.GlobalSettingSwitchPreference
             android:key="wake_when_plugged_or_unplugged"
@@ -127,11 +135,6 @@
             android:summary="@string/wake_when_plugged_or_unplugged_summary"
             android:defaultValue="false"/>
 
-        <!-- Vibrate on plug -->
-        <com.aicp.gear.preference.SystemSettingSwitchPreference
-            android:key="vibration_on_charge_state_changed"
-            android:title="@string/vibration_on_charge_state_changed_title"
-            android:defaultValue="false" />
     </PreferenceCategory>
 
     <!-- SELinux -->

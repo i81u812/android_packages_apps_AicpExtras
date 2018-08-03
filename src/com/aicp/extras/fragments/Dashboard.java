@@ -36,6 +36,7 @@ import com.aicp.extras.PreferenceMultiClickHandler;
 import com.aicp.extras.R;
 import com.aicp.gear.preference.LongClickablePreference;
 import com.aicp.extras.utils.Util;
+import com.aicp.extras.preference.MasterSwitchPreference;
 
 import com.plattysoft.leonids.ParticleSystem;
 

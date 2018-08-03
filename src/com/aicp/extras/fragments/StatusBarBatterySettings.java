@@ -26,6 +26,7 @@ import android.provider.Settings;
 
 import com.aicp.extras.R;
 import com.aicp.extras.BaseSettingsFragment;
+import com.aicp.extras.preference.MasterSwitchPreference;
 
 public class StatusBarBatterySettings extends BaseSettingsFragment implements
         OnPreferenceChangeListener {
