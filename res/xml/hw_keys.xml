@@ -319,6 +319,24 @@
     </PreferenceCategory>
 
     <PreferenceCategory
+        android:key="dnd_zen_cat"
+        android:title="@string/dnd_zen_cat" >
+
+    <com.aicp.gear.preference.SystemSettingSwitchPreference
+        android:key="sysui_volume_up_silent"
+        android:title="@string/volbtn_up_zen_title"
+        android:summary="@string/volbtn_up_zen_summary"
+        android:defaultValue="true" />
+
+    <com.aicp.gear.preference.SystemSettingSwitchPreference
+        android:key="sysui_volume_down_silent"
+        android:title="@string/volbtn_down_zen_title"
+        android:summary="@string/volbtn_down_zen_summary"
+        android:defaultValue="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:key="other_keys"
         android:title="@string/other_keys_category" >
 

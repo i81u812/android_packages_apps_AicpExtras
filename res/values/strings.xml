@@ -1193,4 +1193,13 @@
     <string name="force_expanded_notifications_title">Force expanded notifications</string>
     <string name="force_expanded_notifications_summary">Available only for apps that support it</string>
 
+    <!-- Volume down enter do not disturb -->
+    <string name="dnd_zen_cat">Do not disturb mode</string>
+    <string name="volbtn_down_zen_title">Volume down in do not disturb</string>
+    <string name="volbtn_down_zen_summary">Allow volume down to enter do not disturb mode</string>
+
+    <!-- Volume up exit do not disturb -->
+    <string name="volbtn_up_zen_title">Volume up in do not disturb</string>
+    <string name="volbtn_up_zen_summary">Allow volume up to exit do not disturb mode</string>
+
 </resources>
